@@ -2,7 +2,7 @@
 
 ## Context
 
-A close friend group needs a simple web app to generate balanced basketball league rosters. The app must support file upload (JSON/CSV/YAML), auto-generate balanced teams, allow manual drag-and-drop adjustments, and export results. Generated rosters should be shareable with all players via a public Google Sheet (uploaded to the creator's Google Drive). No data is stored in the app — everything lives in browser memory and disappears when the tab closes. The developer is new to web dev, so the stack must be beginner-friendly, free to host, and require near-zero maintenance.
+A close friend group needs a simple web app to generate balanced basketball league rosters. The app must support file upload (JSON/CSV/YAML), auto-generate balanced teams, allow manual drag-and-drop adjustments, and export results. Generated rosters should be shareable with all players via a public Google Sheet (uploaded to the creator's Google Drive). No data is stored in the app — everything lives in browser memory and disappears when the tab closes. The stack should be accessible, free to host, and require near-zero maintenance.
 
 ---
 
@@ -59,7 +59,7 @@ A close friend group needs a simple web app to generate balanced basketball leag
 | Layer | Choice | Why |
 |-------|--------|-----|
 | **Framework** | Svelte 5 (standalone via Vite, not SvelteKit) | Closest to plain HTML/CSS/JS; reactivity via `$state` — no JSX, no hooks, no virtual DOM. No TypeScript pressure. |
-| **Package manager** | Bun (with npm fallback) | Bun is fast and beginner-friendly, but every command has npm fallback docs for compatibility |
+| **Package manager** | Bun (with npm fallback) | Bun is fast, and every command has npm fallback docs for compatibility |
 | **Build tool** | Vite (via Bun) | Instant dev server + HMR, Svelte compilation via `@sveltejs/vite-plugin-svelte` |
 | **Hosting** | Netlify free tier | Drag-and-drop deploy, auto-deploy from GitHub, 100GB bandwidth/mo free |
 | **Drag-and-drop** | SortableJS | Framework-agnostic, multi-list drag via `group` option, integrates with Svelte via a simple action wrapper |

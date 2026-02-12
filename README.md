@@ -1,6 +1,6 @@
 # Basketball League Roster Maker
 
-A beginner-friendly web app project to build and use for creating balanced basketball league teams.
+A web app project to build and use for creating balanced basketball league teams.
 
 ## Learning Mission
 
@@ -41,7 +41,7 @@ Supporting guides:
 - AI rules (context to give AI agents to help you learn): `docs/learning/AI_USAGE_POLICY.md`
 - Blocker workflow: `docs/learning/BLOCKER_PROTOCOL.md`
 - PR checklist template: `.github/pull_request_template.md`
-- Git/GitHub beginner guide: `docs/learning/GIT_GITHUB_QUICKSTART.md`
+- Git/GitHub guide: `docs/learning/GIT_GITHUB_QUICKSTART.md`
 
 ## Recommended Workflow
 

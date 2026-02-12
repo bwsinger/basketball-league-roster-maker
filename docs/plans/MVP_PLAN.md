@@ -7,7 +7,7 @@ Build a small, practical web app that helps a commissioner:
 2. Create a league with those teams
 3. Auto-balance teams using a basic player-attribute algorithm
 
-This project is both a real tool and a teaching project for a new web developer, so the plan prioritizes simplicity and completion over feature breadth.
+This project is both a real tool and a teaching project, so the plan prioritizes simplicity and completion over feature breadth.
 
 ---
 
